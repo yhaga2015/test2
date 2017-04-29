@@ -1,0 +1,6 @@
+set xrange [-21:21]
+set yrange [-21:21]
+set size square
+plot 'test.dat' u 1:2 w points pt 5 pointsize 1.4
+pause 1
+reread
