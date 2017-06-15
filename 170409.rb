@@ -1,3 +1,5 @@
+# test2
+
 def number_of_live_cell_around(coord, cellarray)
     ref = []
     cellarray.each do |i|
